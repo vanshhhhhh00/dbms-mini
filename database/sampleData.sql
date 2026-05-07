@@ -3,7 +3,7 @@
 -- Run AFTER schema.sql
 -- Passwords below are hashed versions of: "Password123"
 -- ============================================================
-USE eventsphere;
+-- ============================================================
 
 -- ============================================================
 -- Insert sample users
@@ -80,7 +80,7 @@ INSERT INTO events (title, description, date, location, price, total_seats, avai
 ),
 (
     'Annual Food Festival',
-    'Celebrate India\'s diverse culinary heritage. 50+ food stalls, live cooking demos by celebrity chefs, and food competitions.',
+    'Celebrate India''s diverse culinary heritage. 50+ food stalls, live cooking demos by celebrity chefs, and food competitions.',
     '2025-07-30 11:00:00',
     'Juhu Beach, Mumbai',
     150.00,
